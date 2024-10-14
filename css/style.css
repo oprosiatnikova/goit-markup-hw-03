@@ -3,12 +3,17 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
-}
+    }
 
-h1,
-h2,
-h3 {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    
+}
+h1, h2, h3, h4, h5, h6 {
     font-family: Raleway, sans-serif;
+    margin: 0;
 }
 
 a {
@@ -17,11 +22,57 @@ a {
 
 ul,
 ol {
-    list-style-type: none;
-    font-style: normal;
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/heder/
+.page-heder {
+    border-bottom: 1px solid #e7e9fe;
+}
+    .heder-container {
+        display: flex;
+        align-items: center;
+    }
+    .header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+    }
+    .header-nav {
+    display: flex;
+    align-items: center;
+    }
+    .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+    .contacts {
+    font-style: normal;
+    margin-left: auto;
+    }
+    .contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+        .contacts-link {
+            display: block;
+            padding: 24px 0;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+        }
 
-.link {
+.nav-link {
+    display: block;
+    padding: 24px 0;
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
@@ -30,12 +81,11 @@ ol {
     font-style: normal;
 }
 
-.link:hover {
-    color: #404bbf;
-}
-
-.link:focus {
-    color: #404bbf;
+.nav-link:hover,
+.nav-link:focus 
+.contacts-link:hover,
+.contacts-link:focus {
+color: #404bbf;
 }
 
 .logo {
@@ -48,26 +98,13 @@ ol {
     color: #4d5ae5;
 }
 
-.studio {
+.logo-part {
     color: #2e2f42;
 }
 
-.studio-footer {
+.logo-footer {
     color: #F4F4FD;
     text-transform: uppercase;
-}
-
-.address-link {
-    font-style: normal;
-    color: #434455;
-}
-
-.address-link:hover {
-    color: #404bbf;
-}
-
-.address-link:focus {
-    color: #404bbf;
 }
 
 .my-section {
@@ -127,6 +164,7 @@ ol {
     text-align: left;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 .our-team {
@@ -160,3 +198,9 @@ ol {
     color: #F4F4FD;
     text-transform: uppercase;
 }
+
+
+
+
+
+
