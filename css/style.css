@@ -167,6 +167,19 @@ color: #404bbf;
     background-color: #404BBF;
 }
 
+.studio {
+    padding: 120px 0;
+    }
+.studio-list {
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+.studio-iten {
+    margin-right: 0;
+}
+ 
+
 .chapter {
     color: #2E2F42;
     font-size: 36px;
@@ -175,15 +188,18 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     font-weight: 500;
+    width: calc((100% - 72px) / 4);
 }
 
 .subtitle {
+    margin-bottom: 8px;
     color: #2E2F42;
     font-size: 20px;
     text-align: left;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500
+    
 }
 
 .content {
@@ -193,6 +209,7 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
+    display: flex;
 }
 
 .our-team {
