@@ -39,6 +39,7 @@ padding: 0;
       .heder-container {
         display: flex;
         align-items: center;
+        border-bottom: 1px solid #e7e9fc;
     }
     .header-logo {
     padding: 24px 0;
@@ -112,7 +113,6 @@ color: #404bbf;
           .section {
             display: block;
             align-items: center;
-          
             height: 600px;
             width: 1440px;
             padding: 188px 0;
@@ -121,6 +121,7 @@ color: #404bbf;
           .main {
               text-align: center;
             background-color: #2E2F42;
+            padding: 188px 0;
           }
     
           .container-main {
@@ -166,10 +167,14 @@ color: #404bbf;
 .studio {
     padding: 120px 0;
     }
+        .hidden {
+            display: none;
+        }
 .studio-list {
     display: flex;
     gap: 24px;
     margin-right: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .studio-iten {
     margin-right: 0;
@@ -208,7 +213,15 @@ color: #404bbf;
 }
 .set {
     display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
+/section our-team /
+
+.chapter {
+    margin-bottom: 72px;
+}
+
 
 .our-team {
     background-color: #F4F4FD;
