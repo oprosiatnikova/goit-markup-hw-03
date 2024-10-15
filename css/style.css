@@ -131,15 +131,12 @@ color: #404bbf;
     
           .start {
                max-width: 496px;
-                font-size: 56px;
-                line-height: 1.07;
-                letter-spacing: 0.02em;
-                text-align: center;
-                color: #fff;
-                text-wrap: wrap;
-                box-sizing: border-box;
-                gap: 48;
-                align-items: center;
+                    color: #FFF;
+                        font-size: 56px;
+                        line-height: 1.07143;
+                        letter-spacing: 1.12px;
+                        margin-top: 0;
+                        margin-bottom: 48px;
           }
     
           .press {
@@ -166,7 +163,6 @@ color: #404bbf;
     .press:focus {
     background-color: #404BBF;
 }
-
 .studio {
     padding: 120px 0;
     }
@@ -201,7 +197,6 @@ color: #404bbf;
     font-weight: 500
     
 }
-
 .content {
     color: #434455;
     font-size: 16px;
@@ -211,9 +206,13 @@ color: #404bbf;
     margin: 0;
     display: flex;
 }
+.set {
+    display: flex;
+}
 
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .list {
@@ -223,12 +222,30 @@ color: #404bbf;
 .app {
     background-color: #FFFFFF;
 }
+.section-portfolio {
+    max-width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 60px;
+    
+}
+.kit {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .oko {
     color: #F4F4FD;
     background-color: #2E2F42;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+.chapter {
+text-align: center;
 }
 
 .web {
