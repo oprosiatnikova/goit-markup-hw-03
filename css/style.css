@@ -211,29 +211,53 @@ color: #404bbf;
     margin: 0;
     display: flex;
 }
+.our-team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+    
+}
 .set {
     display: flex;
     gap: 24px;
     width: calc((100% - 72px) / 4);
 }
-/section our-team /
+
 
 .chapter {
-    margin-bottom: 72px;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+       
+        gap: 40px;
+        text-align: center;
+        margin-bottom: 72px;
 }
-
-
-.our-team {
-    background-color: #F4F4FD;
-    padding: 120px 0;
-}
-
 .list {
-    background-color: #FFFFFF;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        border-radius: 0 0 4px 4px;
+            padding: 0px 0px 32px 0px;
+            width: 264px;
+            height: 380px;
+            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                background: #fff;
+                text-align: center;
+                
 }
-
-.app {
-    background-color: #FFFFFF;
+.subtitle {
+margin-bottom: 8px;
+}
+.img {
+padding: 32px 0;
+}
+.content {
+    text-align: center;
 }
 .section-portfolio {
     max-width: 1158px;
@@ -244,11 +268,34 @@ color: #404bbf;
             justify-content: flex-start;
             flex-direction: column;
             gap: 60px;
-    
+    }
+        .kit {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                gap: 8px;
+                border-bottom: 1px solid #e7e9fc;
+                   
+                padding: 32px 16px;
+                    width: 360px;
+                   
+        }
+    .app {
+width: 360px;
+    height: 420px;
+    background: #fff;
+    }
+.img {
+display: block;
+max-width: 100%;
 }
-.kit {
-    display: flex;
-    flex-wrap: wrap;
+.subtitle {
+
+}
+.content {
+
 }
 
 .oko {
