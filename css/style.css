@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+ul, ol {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -229,8 +229,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-       
-        gap: 40px;
+       gap: 40px;
         text-align: center;
         margin-bottom: 72px;
 }
@@ -241,7 +240,7 @@ color: #404bbf;
         flex-direction: column;
         gap: 32px;
         border-radius: 0 0 4px 4px;
-            padding: 0px 0px 32px 0px;
+            
             width: 264px;
             height: 380px;
             box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -249,7 +248,13 @@ color: #404bbf;
                 text-align: center;
             width: calc((100% - 72px) / 4);
 }
-.list-item-cont .subtitle {
+                          
+.list-item-cont .name {
+    display: flex;
+    padding: 0px 0px 32px 0px;
+    flex-direction: column;
+}
+.list-item-cont .name .subtitle {
 margin-bottom: 8px;
 text-align: center;
 }
@@ -258,36 +263,57 @@ text-align: center;
 .list .img {
 padding: 32px 0;
 }
-.list .content {
+.list-item-cont .name .content .team-position {
     text-align: center;
+    margin-bottom: 8px;
 }
-.section-portfolio {
-    max-width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
+.container .portfolio {
         display: flex;
             align-items: flex-start;
             justify-content: flex-start;
-            flex-direction: column;
+            /*flex-direction: column;*/
             gap: 60px;
+            padding-top: 120px;
+            padding-bottom: 120px;
     }
-        .kit {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-start;
-                justify-content: center;
-                flex-direction: column;
-                gap: 8px;
-                border-bottom: 1px solid #e7e9fc;
+    .chapter-portfolio {
+        font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+align-items: center;
+gap: 40;  
+text-align: center;
+ margin-bottom: 72px;
+    }
+    .our-portolio {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
                    
-                padding: 32px 16px;
-                    width: 360px;
-                   
-        }
-    .app {
-width: 360px;
+                  .kit .container .list-portfolio {
+                    margin-right: 0;
+                     width: calc((100% - 48px) / 3);
+                     width: 360px;
     height: 420px;
     background: #fff;
+    display: flex;
+align-items: flex-start;
+justify-content: center;
+
+gap: 8px;
+border: 1px solid #e7e9fc;
+padding: 32px 16px;
+max-width: 360px;
+
+                
+                   }
+                   .container .list-portfolio-app {
+                    display: flex;
+                    flex-direction: column;
     }
 .img {
 display: block;
