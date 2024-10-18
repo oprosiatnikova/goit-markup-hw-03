@@ -134,6 +134,8 @@ color: #404bbf;
                         margin-top: 0;
                         margin-bottom: 48px;
                         justify-content: center;
+                        margin-right: auto;
+                        margin-left: auto;
           }
     
           .press {
@@ -164,8 +166,17 @@ color: #404bbf;
 .studio {
     padding: 120px 0;
     }
-        .visually-hidden {
-            visibility: hidden;
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
         }
 .studio-list {
     display: flex;
@@ -316,7 +327,7 @@ row-gap: 48px;
                      border: 1px solid #e7e9fc;
                      border-top: none;
     }
-    ..container .list-portfolio-app .subtitle {
+    .container .list-portfolio-app .subtitle {
     margin-bottom: 8px;
 }
 .img {
@@ -326,13 +337,12 @@ max-width: 100%;
 
 .section-oko {
     display: flex;
-
     color: #F4F4FD;
     background-color: #2E2F42;
     letter-spacing: 0.02em;
     line-height: 1.5;
     padding: 100px 0;
-    /* width: 1440px; */
+    /*width: 1440px;*/
     height: 312px;
 }
 .container-footer {
