@@ -344,7 +344,8 @@ max-width: 100%;
 }
 
 .section-oko {
-    display: flex;
+    /*display: flex;*/
+    display: inline-block;
     color: #F4F4FD;
     background-color: #2E2F42;
     letter-spacing: 0.02em;
@@ -361,6 +362,7 @@ max-width: 100%;
         
 }
 .logo .footer-logo {
+    display: flex;
     
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -370,8 +372,8 @@ max-width: 100%;
     text-transform: uppercase;
     color: #4d5ae5;
     
-    display: flex;
-        align-items: center;
+    
+        
         justify-content: flex-start;
         flex-direction: row;
         gap: 16px;
