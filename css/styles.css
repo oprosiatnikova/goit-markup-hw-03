@@ -362,7 +362,7 @@ max-width: 100%;
         
 }
 .logo .footer-logo {
-    /*display: flex;*/
+   
     display: inline-block;
     
     font-family: "Raleway", sans-serif;
@@ -376,14 +376,15 @@ max-width: 100%;
     justify-content: flex-start;
         flex-direction: row;
         gap: 16px;
+         margin-bottom: 16px; 
         
 }
-.logo-footer {
-    display: inline-block;
+/*.logo-footer {
+ 
     color: #F4F4FD;
     text-transform: uppercase;
     margin-bottom: 16px; 
-}
+}*/
 .okolo {
     font-weight: 400;
         font-size: 16px;
